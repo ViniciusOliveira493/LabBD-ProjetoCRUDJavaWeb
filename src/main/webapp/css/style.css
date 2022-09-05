@@ -1,0 +1,88 @@
+@charset "ISO-8859-1";
+:root{
+	--primary:#032779;
+	--secondary:#063EBF;
+	--black:#000000;
+	--white:#FFFFFF;
+	--highlight1:#FF7400;
+}
+body{
+	margin:0;
+	padding:0;
+}
+nav{
+	min-height:50px;
+	background-color:var(--primary);
+	margin-bottom:5px;
+}
+nav ul{
+	padding:0;
+	margin:0;
+	list-style:none;
+	float:right;
+	padding-top:18px;
+}
+nav ul li{
+	display:inline;
+	margin-right:10px;
+	font-size:25px;	
+	cursor:pointer;
+}
+
+nav ul li a{
+	display:inline-block;
+	text-decoration:none;
+	color:var(--white);
+}
+nav ul li a:hover{
+	color:var(--highlight1);
+	font-weight:bold;
+	border-bottom:2px solid var(--highlight1);
+}
+p{
+	margin:0;
+	padding:0;
+}
+table{
+	min-width:100%;
+}
+footer{
+	min-height:30px;
+	background-color:var(--black);
+	bottom:0px;
+	position: fixed;
+	width:100%;
+	text-align:center;
+}
+.inline{
+	display:inline-block;
+}
+.divForm{
+	margin:auto;
+	border:1px solid var(--black);
+	width:35%;
+	border-radius:20px;
+	margin-bottom:5px;
+	padding:2%;
+}
+.divForm form div input{
+	margin-bottom:10px;
+	margin-right:20px;
+}
+.fullWidth{
+	width:100%;
+}
+#txtID{
+	max-width:70px;
+}
+#txtNome{
+	min-width:320px;
+}
+#txtPreco{
+	min-width:100%;
+}
+#botoes{
+	width:90%;
+	margin:auto;
+	margin-top:10px;
+}
